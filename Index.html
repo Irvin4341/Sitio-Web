@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Samsung Store</title>
+<link href="CSS/Hoja de Estilo.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+</head>
+
+<body>
+<header><img src="img/P1.jpg" width="1024" height="328" alt=""/></header>
+<nav> <a href="#">Inicio</a>&nbsp;&nbsp; <a href="Serie A.html">Serie A&nbsp;</a> <a href="Serie S.html">&nbsp;Serie S&nbsp;</a> <a href="Tablets.html"> Tablets</a></nav>
+<div>
+  <main>
+    <section class="seccion1"><strong>&quot;Designed For</strong>&quot;</section>
+    <section class="seccion2">
+      <img src="img/SI.jpg" alt="" width="1085" height="609" class="photo1"/>    <img src="img/S21.jpg" alt="" width="1087" height="611" class="photo2"/></section>
+</main>
+  <main class="acordion">
+    <div id="Accordion1">
+      <h3><a href="#">Series A</a></h3>
+      <div>
+        <h2><strong>Samsung Galaxy A: Alpha</strong></h2>
+        <p>Una de las series más conocidas y que actualmente se mantiene activa desde el año 2014. Estos equipos destacaban principalmente por su diseño, al presentar un cuerpo de metal llamativo para los usuarios. Entre los modelos más destacados están los icónicos Galaxy A3, Galaxy A5 y Galaxy A7.</p>
+        <p>&nbsp;</p>
+      </div>
+      <h3><a href="#">Series S</a> - Super Smart</h3>
+      <div>
+        <h2><strong>Samsung Galaxy S: Super Smart</strong></h2>
+        <p>La categoría por excelencia de Samsung —y, a su vez, la más conocida a nivel internacional— ha tenido un sinfín de equipos, los cuales incluso se han mejorado con el añadido plus (+). La primera aparición de esta línea de teléfonos súper inteligentes fue en 2011, y lo más probable es que continúe por bastante tiempo.</p>
+        <p>&nbsp;</p>
+      </div>
+      <h3>Series E</h3>
+      <div>
+        <h2><strong>Samsung Galaxy E: Elevate</strong></h2>
+        <p>A partir del año 2015, estas versiones empezaron a distribuirse, aunque hasta ahora se desconoce cuál es el verdadero significado que Samsun le dio a &ldquo;elevar&rdquo;. No obstante, una característica que tienen en común estos móviles es que son de gama media-baja.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  &nbsp;</main>
+</div>
+<footer>Samsung Derechos Reservados 2022</footer>
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion({
+		collapsible:true,
+		heightStyle:"fill",
+		animate:{easing: "swing"}
+	}); 
+});
+</script>
+</body>
+</html>
